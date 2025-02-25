@@ -49,7 +49,7 @@ public class Main {
                             total += moneda;
                             break;
                         default:
-                            System.out.println("Denominación no valida");
+                            System.out.println("DENOMINACIÓN INVALIDA!");
                             break;
                     }
                     break;
@@ -69,7 +69,7 @@ public class Main {
                     total=veinte=cincuenta=cien=doscientos=quinientos=0;
                     break;
                 default:
-                    System.out.println("Opción no válida");
+                    System.out.println("OPCIÓN NO VALIDA!");
                     break;
             }
         }
