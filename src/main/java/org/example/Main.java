@@ -30,23 +30,23 @@ public class Main {
                     switch (moneda) {
                         case 1:
                             veinte++;
-                            total += moneda;
+                            total += 20;
                             break;
                         case 2:
                             cincuenta++;
-                            total += moneda;
+                            total += 50;
                             break;
                         case 3:
                             cien++;
-                            total += moneda;
+                            total += 100;
                             break;
                         case 4:
                             doscientos++;
-                            total += moneda;
+                            total += 200;
                             break;
                         case 5:
                             quinientos++;
-                            total += moneda;
+                            total += 500;
                             break;
                         default:
                             System.out.println("DENOMINACIÓN INVALIDA!");
